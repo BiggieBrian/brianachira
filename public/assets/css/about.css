@@ -1,0 +1,9 @@
+@import url(./style.css);
+
+main {
+  width: 90%;
+  margin: 2% auto;
+}
+.main-head {
+  font-size: 5em;
+}

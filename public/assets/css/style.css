@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--accent);
+}
+
+main {
+  border: 2px solid white;
+  margin: 1%;
+  min-height: 90vh;
+  width: 100%;
+}
+nav {
+  /* width: 100%; 
+  background-color: var(--main);
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+:root {
+  /* --pimaryBg: #dcd3bd; */
+  --pimaryBg: #e9e8e49e;
+  --accent: #1e1e1c;
+  --secondaryBg: #3f403c;
+  --highlight: #f5f1e7;
+  --textAccent: #b0a690;
+  --main: antiquewhite;
+}
+body {
+  background-color: black;
+}
+.card {
+  /* background-color: var(--pimaryBg); */
+  background-color: #141313;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  border-radius: 10px;
+}
+
+img {
+  width: 90%;
+  background: none;
+  border-radius: 10px;
+}
+img {
+  filter: grayscale(100%);
+}
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.pinyon {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.italics {
+  font-style: italic;
+  font-weight: 100;
+}
+a {
+  transition: 500ms;
+}
+a:hover {
+  transform: translateY(-10%);
+}
+.imageHolder {
+  background-color: transparent;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+@media (width <= 80rem /* 1280px */) {
+  .imageHolder {
+    display: none;
+  }
+}
