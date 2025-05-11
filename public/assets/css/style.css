@@ -92,9 +92,12 @@ a:hover {
   justify-content: end;
   align-items: end;
 }
-
+.special {
+  justify-content: start;
+}
 @media (width <= 80rem /* 1280px */) {
   .imageHolder {
-    display: none;
+    justify-content: center;
+    align-items: center;
   }
 }
